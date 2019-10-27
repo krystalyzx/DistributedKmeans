@@ -1,0 +1,6 @@
+Client {"Client":1}
+Initialization Complete
+Client {"Client":2}
+Send RServer.NewTask request
+Client {"Client":3, "Master":43, "resourceNode4":43, "resourceNode1":43, "resourceNode2":43, "resourceNode3":43}
+Return from calling RServer.NewTask

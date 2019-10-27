@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Canvas</title>
+    <script src="./js/jquery-3.2.0.js"></script>
+    <script src="./js/plotly-latest.min.js"></script>
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+
+    <script>
+        $(document).ready(function() {
+            $("#logout").click(function() {
+                $.ajax({
+                    url: "http://127.0.0.1:8081/",
+                    data: "testing",
+                    type: "POST",
+                    contentType: "application/json; charset=utf-8",
+                    success: function(data) {
+                        console.log(data);
+                        obj = JSON.parse(data);
+                        buildchart(obj);
+
+                    },
+                    error: function(err) {
+                        alert("Failed")
+                        console.log(err)
+                    }
+
+                })
+            })
+
+        })
+    </script>
+</head>
+
+<body>
+<button class="btn btn-primary" id="logout">Display Result</button>
+<div class="inner"></div>
+<div id="myDiv" style="width: 1024px; height: 1024px;"><!-- Plotly chart will be drawn inside this DIV --></div>
+<script>
+    function buildchart(mydata) {
+        console.log(mydata);
+        const len = (Object.keys(mydata.X).length);
+        var datakinds = 0;
+        parsed_data = [];
+        source_list = [];
+        for (var i = 0; i <= len - 1; i++) {
+            var cluster_count = (Object.keys(mydata.X))[i];
+            var cors = mydata.X[cluster_count];
+            var clus = mydata.Y[cluster_count];
+            if (clus > datakinds) {
+                datakinds = clus;
+            }
+            var point = {
+                xy: cors,
+                cluster: clus
+            }
+            parsed_data.push(point);
+        }
+        for (var i = 0; i <= datakinds; i++) {
+            source_list.push(build_sources(i, parsed_data, len));
+        }
+        console.log(source_list);
+        var layout = {
+            hovermode:'closest',
+            legend: {
+                y: 5,
+                yref: 'paper',
+                font: {
+                    family: 'Arial, sans-serif',
+                    size: 10,
+                    color: 'black',
+                }
+            },
+            title:'Distributed Data'
+        };
+        Plotly.newPlot('myDiv', source_list, layout);
+    }
+    //--------------------------------helper---------------------------------------------------
+    function parsingdata(data){
+        for(var i=0;i<=data.length-1;i++) {
+            console.log(data[i].x);
+            xcor.push(data[i].x);
+            ycor.push(data[i].y);
+        }
+        console.log(xcor);
+    }
+    function build_sources(datakind, datas, datasize){
+        var return_list={
+            x:[],
+            y:[],
+            mode:'markers',
+            name: 'Cluster_'+datakind.toString(),
+            marker: { size: 3 },
+
+        };
+        for(var i =0; i<= datasize-1; i++) {
+            if (datas[i].cluster == datakind) {
+                return_list.x.push(datas[i].xy[0]);
+                return_list.y.push(datas[i].xy[1]);
+            }
+        }
+        return return_list;
+    }
+</script>
+</body>
+
+</html>

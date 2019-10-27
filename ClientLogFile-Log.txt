@@ -1,0 +1,4 @@
+Client {"Client":1}
+Initialization Complete
+Client {"Client":2}
+Send RServer.NewTask request

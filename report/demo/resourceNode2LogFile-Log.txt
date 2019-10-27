@@ -1,0 +1,86 @@
+resourceNode2 {"resourceNode2":1}
+Initialization Complete
+resourceNode2 {"Master":4, "Client":2, "resourceNode2":2}
+Receive DoTrainMapResourceNode from server
+resourceNode2 {"resourceNode2":3, "Master":4, "Client":2}
+Reply to DoTrainMapResourceNode request
+resourceNode2 {"resourceNode2":4, "Master":12, "Client":2, "resourceNode4":3, "resourceNode1":3, "resourceNode3":3}
+Receive DoTrainReduceResourceNode request from server
+resourceNode2 {"resourceNode1":3, "resourceNode3":3, "resourceNode2":5, "Master":12, "Client":2, "resourceNode4":3}
+Send Resource.ReturnSumAndCountError request
+resourceNode2 {"Client":2, "resourceNode4":12, "resourceNode1":5, "resourceNode3":5, "resourceNode2":6, "Master":14}
+Return from calling Resource.ReturnSumAndCountError
+resourceNode2 {"resourceNode4":12, "resourceNode1":5, "resourceNode3":5, "resourceNode2":7, "Master":14, "Client":2}
+Send Resource.ReturnSumAndCountError request
+resourceNode2 {"Client":2, "resourceNode4":14, "resourceNode1":5, "resourceNode3":5, "resourceNode2":8, "Master":14}
+Receive ReturnSumAndCountError request
+resourceNode2 {"resourceNode4":14, "resourceNode1":5, "resourceNode3":5, "resourceNode2":9, "Master":14, "Client":2}
+Receive ReturnSumAndCountError request
+resourceNode2 {"Master":14, "Client":2, "resourceNode4":14, "resourceNode1":5, "resourceNode3":7, "resourceNode2":10}
+Receive ReturnSumAndCountError request
+resourceNode2 {"resourceNode1":5, "resourceNode3":7, "resourceNode2":11, "Master":14, "Client":2, "resourceNode4":14}
+Reply to ReturnSumAndCountError
+resourceNode2 {"resourceNode2":12, "Master":14, "Client":2, "resourceNode4":14, "resourceNode1":5, "resourceNode3":7}
+Reply to ReturnSumAndCountError
+resourceNode2 {"resourceNode1":5, "resourceNode3":7, "resourceNode2":13, "Master":14, "Client":2, "resourceNode4":14}
+Reply to ReturnSumAndCountError
+resourceNode2 {"Master":14, "Client":2, "resourceNode4":15, "resourceNode1":7, "resourceNode3":7, "resourceNode2":14}
+Receive ReturnSumAndCountError request
+resourceNode2 {"resourceNode1":7, "resourceNode3":7, "resourceNode2":15, "Master":14, "Client":2, "resourceNode4":15}
+Return from calling Resource.ReturnSumAndCountError
+resourceNode2 {"resourceNode1":7, "resourceNode3":7, "resourceNode2":16, "Master":14, "Client":2, "resourceNode4":15}
+Reply to ReturnSumAndCountError
+resourceNode2 {"Master":14, "Client":2, "resourceNode4":15, "resourceNode1":7, "resourceNode3":7, "resourceNode2":17}
+Send Resource.ReturnSumAndCountError request
+resourceNode2 {"resourceNode2":18, "Master":14, "Client":2, "resourceNode4":17, "resourceNode1":9, "resourceNode3":16}
+Return from calling Resource.ReturnSumAndCountError
+resourceNode2 {"resourceNode2":19, "Master":14, "Client":2, "resourceNode4":17, "resourceNode1":9, "resourceNode3":16}
+Send Resource.ReturnSumAndCountError request
+resourceNode2 {"resourceNode4":19, "resourceNode1":14, "resourceNode3":18, "resourceNode2":20, "Master":14, "Client":2}
+Return from calling Resource.ReturnSumAndCountError
+resourceNode2 {"resourceNode1":14, "resourceNode3":18, "resourceNode2":21, "Master":14, "Client":2, "resourceNode4":19}
+Reply to DoTrainReduceResourceNode
+resourceNode2 {"resourceNode4":21, "resourceNode1":21, "resourceNode3":21, "resourceNode2":22, "Master":22, "Client":2}
+Receive DoTrainMapResourceNode from server
+resourceNode2 {"Client":2, "resourceNode4":21, "resourceNode1":21, "resourceNode3":21, "resourceNode2":23, "Master":22}
+Reply to DoTrainMapResourceNode request
+resourceNode2 {"resourceNode4":23, "resourceNode1":23, "resourceNode3":23, "resourceNode2":24, "Master":28, "Client":2}
+Receive DoTrainReduceResourceNode request from server
+resourceNode2 {"resourceNode4":23, "resourceNode1":23, "resourceNode3":23, "resourceNode2":25, "Master":28, "Client":2}
+Send Resource.ReturnSumAndCountError request
+resourceNode2 {"resourceNode3":31, "resourceNode2":26, "Master":30, "Client":2, "resourceNode4":25, "resourceNode1":25}
+Return from calling Resource.ReturnSumAndCountError
+resourceNode2 {"resourceNode1":25, "resourceNode3":31, "resourceNode2":27, "Master":30, "Client":2, "resourceNode4":25}
+Send Resource.ReturnSumAndCountError request
+resourceNode2 {"Master":30, "Client":2, "resourceNode4":33, "resourceNode1":25, "resourceNode3":31, "resourceNode2":28}
+Return from calling Resource.ReturnSumAndCountError
+resourceNode2 {"resourceNode3":31, "resourceNode2":29, "Master":30, "Client":2, "resourceNode4":33, "resourceNode1":25}
+Send Resource.ReturnSumAndCountError request
+resourceNode2 {"Client":2, "resourceNode4":33, "resourceNode1":31, "resourceNode3":33, "resourceNode2":30, "Master":30}
+Return from calling Resource.ReturnSumAndCountError
+resourceNode2 {"resourceNode2":31, "Master":30, "Client":2, "resourceNode4":33, "resourceNode1":31, "resourceNode3":33}
+Send Resource.ReturnSumAndCountError request
+resourceNode2 {"resourceNode2":32, "Master":30, "Client":2, "resourceNode4":33, "resourceNode1":31, "resourceNode3":33}
+Receive ReturnSumAndCountError request
+resourceNode2 {"resourceNode1":31, "resourceNode3":35, "resourceNode2":33, "Master":30, "Client":2, "resourceNode4":39}
+Receive ReturnSumAndCountError request
+resourceNode2 {"resourceNode4":39, "resourceNode1":31, "resourceNode3":35, "resourceNode2":34, "Master":30, "Client":2}
+Reply to ReturnSumAndCountError
+resourceNode2 {"Client":2, "resourceNode4":39, "resourceNode1":31, "resourceNode3":35, "resourceNode2":35, "Master":30}
+Reply to ReturnSumAndCountError
+resourceNode2 {"Master":30, "Client":2, "resourceNode4":39, "resourceNode1":31, "resourceNode3":35, "resourceNode2":36}
+Return from calling Resource.ReturnSumAndCountError
+resourceNode2 {"resourceNode2":37, "Master":30, "Client":2, "resourceNode4":39, "resourceNode1":31, "resourceNode3":35}
+Reply to DoTrainReduceResourceNode
+resourceNode2 {"resourceNode2":38, "Master":30, "Client":2, "resourceNode4":39, "resourceNode1":36, "resourceNode3":39}
+Receive ReturnSumAndCountError request
+resourceNode2 {"resourceNode3":39, "resourceNode2":39, "Master":30, "Client":2, "resourceNode4":39, "resourceNode1":39}
+Receive ReturnSumAndCountError request
+resourceNode2 {"resourceNode3":39, "resourceNode2":40, "Master":30, "Client":2, "resourceNode4":39, "resourceNode1":39}
+Reply to ReturnSumAndCountError
+resourceNode2 {"resourceNode3":39, "resourceNode2":41, "Master":30, "Client":2, "resourceNode4":39, "resourceNode1":39}
+Reply to ReturnSumAndCountError
+resourceNode2 {"Master":38, "Client":2, "resourceNode4":41, "resourceNode1":41, "resourceNode3":41, "resourceNode2":42}
+Recieve DoClassifyMapResourceNode request
+resourceNode2 {"Master":38, "Client":2, "resourceNode4":41, "resourceNode1":41, "resourceNode3":41, "resourceNode2":43}
+Reply to DoClassifyMapResourceNode

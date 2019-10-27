@@ -1,0 +1,86 @@
+Master {"Master":1}
+Initialization Complete
+Master {"Master":2, "Client":2}
+Receive NewTask request
+Master {"Master":3, "Client":2}
+Master call Resource.DoTrainMapResourceNode
+Master {"Master":4, "Client":2}
+Master call Resource.DoTrainMapResourceNode
+Master {"Master":5, "Client":2}
+Master call Resource.DoTrainMapResourceNode
+Master {"Master":6, "Client":2}
+Master call Resource.DoTrainMapResourceNode
+Master {"Client":2, "Master":7, "resourceNode4":3}
+Return from calling Resource.DoTrainMapResourceNode
+Master {"Master":8, "resourceNode4":3, "Client":2, "resourceNode2":3}
+Return from calling Resource.DoTrainMapResourceNode
+Master {"Master":9, "resourceNode4":3, "Client":2, "resourceNode2":3, "resourceNode3":3}
+Return from calling Resource.DoTrainMapResourceNode
+Master {"Client":2, "resourceNode1":3, "resourceNode2":3, "resourceNode3":3, "Master":10, "resourceNode4":3}
+Return from calling Resource.DoTrainMapResourceNode
+Master {"resourceNode4":3, "Client":2, "resourceNode1":3, "resourceNode2":3, "resourceNode3":3, "Master":11}
+Send Resource.DoTrainReduceResourceNode request
+Master {"resourceNode2":3, "resourceNode3":3, "Master":12, "resourceNode4":3, "Client":2, "resourceNode1":3}
+Send Resource.DoTrainReduceResourceNode request
+Master {"resourceNode1":3, "resourceNode2":3, "resourceNode3":3, "Master":13, "resourceNode4":3, "Client":2}
+Send Resource.DoTrainReduceResourceNode request
+Master {"Master":14, "resourceNode4":3, "Client":2, "resourceNode1":3, "resourceNode2":3, "resourceNode3":3}
+Send Resource.DoTrainReduceResourceNode request
+Master {"resourceNode3":11, "Master":15, "resourceNode4":21, "Client":2, "resourceNode1":11, "resourceNode2":16}
+Return from calling Resource.DoTrainReduceResourceNode
+Master {"resourceNode1":14, "resourceNode2":21, "resourceNode3":18, "Master":16, "resourceNode4":21, "Client":2}
+Return from calling Resource.DoTrainReduceResourceNode
+Master {"Master":17, "resourceNode4":21, "Client":2, "resourceNode1":17, "resourceNode2":21, "resourceNode3":21}
+Return from calling Resource.DoTrainReduceResourceNode
+Master {"Master":18, "resourceNode4":21, "Client":2, "resourceNode1":21, "resourceNode2":21, "resourceNode3":21}
+Return from calling Resource.DoTrainReduceResourceNode
+Master {"resourceNode2":21, "resourceNode3":21, "Master":19, "resourceNode4":21, "Client":2, "resourceNode1":21}
+Master call Resource.DoTrainMapResourceNode
+Master {"resourceNode2":21, "resourceNode3":21, "Master":20, "resourceNode4":21, "Client":2, "resourceNode1":21}
+Master call Resource.DoTrainMapResourceNode
+Master {"resourceNode4":21, "Client":2, "resourceNode1":21, "resourceNode2":21, "resourceNode3":21, "Master":21}
+Master call Resource.DoTrainMapResourceNode
+Master {"resourceNode2":21, "resourceNode3":21, "Master":22, "resourceNode4":21, "Client":2, "resourceNode1":21}
+Master call Resource.DoTrainMapResourceNode
+Master {"Master":23, "resourceNode4":21, "Client":2, "resourceNode1":21, "resourceNode2":21, "resourceNode3":23}
+Return from calling Resource.DoTrainMapResourceNode
+Master {"resourceNode1":21, "resourceNode2":21, "resourceNode3":23, "Master":24, "resourceNode4":23, "Client":2}
+Return from calling Resource.DoTrainMapResourceNode
+Master {"resourceNode4":23, "Client":2, "resourceNode1":23, "resourceNode2":21, "resourceNode3":23, "Master":25}
+Return from calling Resource.DoTrainMapResourceNode
+Master {"Master":26, "resourceNode4":23, "Client":2, "resourceNode1":23, "resourceNode2":23, "resourceNode3":23}
+Return from calling Resource.DoTrainMapResourceNode
+Master {"resourceNode1":23, "resourceNode2":23, "resourceNode3":23, "Master":27, "resourceNode4":23, "Client":2}
+Send Resource.DoTrainReduceResourceNode request
+Master {"resourceNode2":23, "resourceNode3":23, "Master":28, "resourceNode4":23, "Client":2, "resourceNode1":23}
+Send Resource.DoTrainReduceResourceNode request
+Master {"resourceNode3":23, "Master":29, "resourceNode4":23, "Client":2, "resourceNode1":23, "resourceNode2":23}
+Send Resource.DoTrainReduceResourceNode request
+Master {"resourceNode1":23, "resourceNode2":23, "resourceNode3":23, "Master":30, "resourceNode4":23, "Client":2}
+Send Resource.DoTrainReduceResourceNode request
+Master {"Master":31, "resourceNode4":39, "Client":2, "resourceNode1":31, "resourceNode2":37, "resourceNode3":35}
+Return from calling Resource.DoTrainReduceResourceNode
+Master {"Master":32, "resourceNode4":41, "Client":2, "resourceNode1":31, "resourceNode2":37, "resourceNode3":35}
+Return from calling Resource.DoTrainReduceResourceNode
+Master {"resourceNode3":41, "Master":33, "resourceNode4":41, "Client":2, "resourceNode1":39, "resourceNode2":40}
+Return from calling Resource.DoTrainReduceResourceNode
+Master {"Master":34, "resourceNode4":41, "Client":2, "resourceNode1":41, "resourceNode2":41, "resourceNode3":41}
+Return from calling Resource.DoTrainReduceResourceNode
+Master {"resourceNode3":41, "Master":35, "resourceNode4":41, "Client":2, "resourceNode1":41, "resourceNode2":41}
+Send Resource.DoClassifyMapResourceNode request
+Master {"Client":2, "resourceNode1":41, "resourceNode2":41, "resourceNode3":41, "Master":36, "resourceNode4":41}
+Send Resource.DoClassifyMapResourceNode request
+Master {"Client":2, "resourceNode1":41, "resourceNode2":41, "resourceNode3":41, "Master":37, "resourceNode4":41}
+Send Resource.DoClassifyMapResourceNode request
+Master {"resourceNode2":41, "resourceNode3":41, "Master":38, "resourceNode4":41, "Client":2, "resourceNode1":41}
+Send Resource.DoClassifyMapResourceNode request
+Master {"resourceNode2":43, "resourceNode3":41, "Master":39, "resourceNode4":41, "Client":2, "resourceNode1":41}
+Return from calling Resource.DoClassifyMapResourceNode
+Master {"Client":2, "resourceNode1":43, "resourceNode2":43, "resourceNode3":41, "Master":40, "resourceNode4":41}
+Return from calling Resource.DoClassifyMapResourceNode
+Master {"Client":2, "resourceNode1":43, "resourceNode2":43, "resourceNode3":43, "Master":41, "resourceNode4":41}
+Return from calling Resource.DoClassifyMapResourceNode
+Master {"resourceNode2":43, "resourceNode3":43, "Master":42, "resourceNode4":43, "Client":2, "resourceNode1":43}
+Return from calling Resource.DoClassifyMapResourceNode
+Master {"resourceNode1":43, "resourceNode2":43, "resourceNode3":43, "Master":43, "resourceNode4":43, "Client":2}
+Reply to NewTask
