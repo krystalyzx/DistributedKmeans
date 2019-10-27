@@ -1,4 +1,5 @@
-# Distributed K-means based on the MapReduced paradigm implemented in Go
+# Distributed K-means 
+Based on the MapReduced paradigm and implemented in Go
 ## Setup
 - Install [Go](https://golang.org/)
 - Install dependencies:
@@ -53,4 +54,5 @@ There are three types of nodes in the system
 ## Features
 * Stable K-means.  Since K-means is sensative to initialization, train 50 K-means models, each with some random initialization, and picks the model with the lowest total sum of distances
 * Load balancing.  MasterServer records the performance (i.e., time to task completion) of each ResourceNode, assigning more tasks to faster node.
-* Backup tasks.  If a ResourceNode fails to reponse in a reasonable time frame, MasterServer reassigns its tasks to other ResourceNode who have already complete their tasks.         
+* Backup tasks.  If a ResourceNode fails to reponse in a reasonable time frame, MasterServer reassigns its tasks to other ResourceNode who have already complete their tasks.   
+* Visualization.  Clients can view the classification results by opening `frontend/index.html`.  All data entries will be plotted and entries belong to different cluster will have different colors.       
